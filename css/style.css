@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    background-color: #FFFFFF;
+}
+.navbar{
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 12%), inset 0 -1px 0 0 #dadce0;
+}
+.logo{
+    width: 230px;
+}
+.navbar-nav{
+display: flex;
+gap: 1.2rem;
+
+}
+
+.navbar-nav>li{
+display: flex;
+
+}
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    color: #5f6368;
+    display: table-cell;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+}
+.herder>h1{
+    font-family: 'Roboto', sans-serif;
+font-size: 53px;
+margin-top: 90px;
+color: #202124;
+font-weight: 600;
+   
+}
+.desc>p{
+color: #202124;
+max-width:90%;
+font-family: 'Roboto', sans-serif;
+
+   
+}
+.vieo{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.prictheader{
+    color: #1E73BE;
+    font-size: 40px;
+}
+.Price{
+    margin-top: 7rem;
+}
+.plan{
+    margin-top: 20px;
+}
+.icone img{
+    width: 35px;
+    margin-left: 15px;
+ 
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+  .button, .card-text, card-title{
+    font-family: 'Open Sans', sans-serif;
+  }
+  .container{
+    padding: 30px;
+  }
+
+  .company .card{
+    width: 15rem;
+    border-radius: 10px ;
+    box-shadow: 1px 1px  1px #ccc;
+  }
+  
+  .company img{
+
+padding: 10px 30px 0 30px;
+  }
+  .company .card-body{
+    margin-top: -20px;
+  }
+  .company .card{
+    height: 140px;
+  }
+
+  @media (max-width: 768px) {
+   .maincontain .herder h1{
+ text-align: center;
+ font-size: 30px;
+ margin-top: -10px;
+   }
+   .maincontain .desc p{
+ text-align: center;
+
+   }
+  }
